@@ -28,6 +28,7 @@ public class JUnitTesteCalculadora {
 
     @Test
     public void testSomaValoresNegativos() {
+        //Verifica soma dos valores negativos
         assertEquals("Somar", 10, calculadora.somar(20, -10));
         assertFalse("Valores Iguais", 10 == calculadora.somar(-6, 6));
         assertFalse("Valores Diferentes", 10 == calculadora.somar(-10, -10));
