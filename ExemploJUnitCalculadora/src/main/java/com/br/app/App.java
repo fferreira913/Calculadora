@@ -12,6 +12,7 @@ public class App {
     
         Calculadora calculadora = new Calculadora();
         
+        System.out.println("------------Projeto Calculador");
         System.out.println("Soma: " +calculadora.somar(5, 5));
         System.out.println("Subtrair: " +calculadora.subtrair(5, 5));
         System.out.println("Multiplicar: " +calculadora.multiplicar(5, 5));
